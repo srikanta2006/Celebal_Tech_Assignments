@@ -73,6 +73,33 @@ This week transitioned into practical machine learning pipelines, regression tec
 * Chronological Splitting
 * Forecasting Methodologies
 
+### Week 3: Classification & Clustering
+This week covered the full spectrum of supervised classification algorithms, ensemble methods, and unsupervised clustering techniques.
+
+**Classification Algorithms**
+* Logistic Regression
+* Naive Bayes
+* K-Nearest Neighbors (KNN)
+* Support Vector Machines (SVM)
+* Decision Tree
+
+**Ensemble Methods**
+* Random Forest & Feature Importance
+* AdaBoost
+* Gradient Boosting
+* XGBoost
+* LightGBM
+* Stacking
+
+**Model Evaluation**
+* Evaluation Metrics (Accuracy, Precision, Recall, F1, ROC-AUC)
+
+**Unsupervised Learning & Clustering**
+* K-Means Clustering
+* K-Medoids
+* DBSCAN
+* Hierarchical Clustering
+* Cluster Evaluation (Silhouette Score, Inertia)
 ---
 
 ## 💻 Assignments
@@ -87,4 +114,9 @@ This week transitioned into practical machine learning pipelines, regression tec
   * **Models Deployed:** Baseline Linear Regression, Hyperparameter-tuned Random Forest (using `TimeSeriesSplit`), SARIMA, and Meta Prophet.
   * **Link to code:** [Week 2 Assignment File](https://github.com/srikanta2006/Celebal_Tech_Assignments/blob/main/week2_srikanta.ipynb)
 
+### Week 3
+* **End-to-End Customer Intelligence System (Country Data Dataset)**
+  * **Description:** Built a complete end-to-end machine learning pipeline on global socio-economic data. The project bridges unsupervised clustering and supervised classification. It features thorough data auditing, IQR-based outlier capping, StandardScaler preprocessing, and PCA-based dimensionality reduction for visualization. Cluster labels derived from K-Means are used as targets to enable downstream classification, creating a cohesive intelligence pipeline.
+  * **Models Deployed:** K-Means Clustering (Elbow + Silhouette tuning), DBSCAN (K-Distance eps tuning), Baseline Random Forest, Baseline XGBoost, Hyperparameter-tuned Random Forest & XGBoost (using `GridSearchCV`), and Soft Voting Ensemble (RF + XGBoost).
+  * **Link to code:** [Week 3 Assignment File](https://github.com/your-username/your-repo/blob/main/week3_assignment_srikanta.ipynb)
 ---

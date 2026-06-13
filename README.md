@@ -118,5 +118,5 @@ This week covered the full spectrum of supervised classification algorithms, ens
 * **End-to-End Customer Intelligence System (Country Data Dataset)**
   * **Description:** Built a complete end-to-end machine learning pipeline on global socio-economic data. The project bridges unsupervised clustering and supervised classification. It features thorough data auditing, IQR-based outlier capping, StandardScaler preprocessing, and PCA-based dimensionality reduction for visualization. Cluster labels derived from K-Means are used as targets to enable downstream classification, creating a cohesive intelligence pipeline.
   * **Models Deployed:** K-Means Clustering (Elbow + Silhouette tuning), DBSCAN (K-Distance eps tuning), Baseline Random Forest, Baseline XGBoost, Hyperparameter-tuned Random Forest & XGBoost (using `GridSearchCV`), and Soft Voting Ensemble (RF + XGBoost).
-  * **Link to code:** [Week 3 Assignment File](https://github.com/your-username/your-repo/blob/main/week3_assignment_srikanta.ipynb)
+  * **Link to code:** [Week 3 Assignment File](https://github.com/srikanta2006/Celebal_Tech_Assignments/blob/main/week3_srikanta.ipynb)
 ---

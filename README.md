@@ -35,7 +35,7 @@ This week focused on building a strong mathematical and programming foundation r
 * Hypothesis Testing Basics
 * Distributions in the Wild
 * Distribution and Stationarity Testing
-* Bayes' Theorem Intuition
+* Bayes' Theorem Intuition 
 * The Central Limit Theorem (CLT)
 
 **Machine Learning Fundamentals**
@@ -96,7 +96,7 @@ This week covered the full spectrum of supervised classification algorithms, ens
 
 **Unsupervised Learning & Clustering**
 * K-Means Clustering
-* K-Medoids
+* K-Medoids Clustering
 * DBSCAN
 * Hierarchical Clustering
 * Cluster Evaluation (Silhouette Score, Inertia)

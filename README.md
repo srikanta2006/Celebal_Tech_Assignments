@@ -100,6 +100,30 @@ This week covered the full spectrum of supervised classification algorithms, ens
 * DBSCAN
 * Hierarchical Clustering
 * Cluster Evaluation (Silhouette Score, Inertia)
+
+### Week 4: Introduction to Deep Learning
+
+This week introduced the core building blocks of neural networks and convolutional architectures, moving from foundational perceptron theory to practical CNN design and transfer learning.
+
+**Neural Network Foundations**
+- Perceptron
+- Multi-Layer Perceptron (MLP)
+- Forward Pass
+- Backpropagation
+
+**Activation Functions**
+- Sigmoid and Tanh
+- ReLU Family
+
+**Deep Learning Essentials**
+- Loss Functions (DL)
+
+**Convolutional Neural Networks**
+- Convolution Layer
+- Pooling and Stride
+- Padding
+- CNN Architectures
+- Transfer Learning
 ---
 
 ## 💻 Assignments
@@ -119,4 +143,11 @@ This week covered the full spectrum of supervised classification algorithms, ens
   * **Description:** Built a complete end-to-end machine learning pipeline on global socio-economic data. The project bridges unsupervised clustering and supervised classification. It features thorough data auditing, IQR-based outlier capping, StandardScaler preprocessing, and PCA-based dimensionality reduction for visualization. Cluster labels derived from K-Means are used as targets to enable downstream classification, creating a cohesive intelligence pipeline.
   * **Models Deployed:** K-Means Clustering (Elbow + Silhouette tuning), DBSCAN (K-Distance eps tuning), Baseline Random Forest, Baseline XGBoost, Hyperparameter-tuned Random Forest & XGBoost (using `GridSearchCV`), and Soft Voting Ensemble (RF + XGBoost).
   * **Link to code:** [Week 3 Assignment File](https://github.com/srikanta2006/Celebal_Tech_Assignments/blob/main/week3_srikanta.ipynb)
+ 
+ ### Week 4
+
+- **Image Classification on CIFAR-10 (ANN vs CNN)**
+  * **Description:** Built and compared image classification models on the CIFAR-10 dataset using both an Artificial Neural Network (ANN) and a Convolutional Neural Network (CNN). The project analyzes how architecture choice affects performance on image data, and evaluates the impact of training strategies such as Batch Normalization, Dropout, EarlyStopping, and data augmentation on accuracy and generalization. Performance is further broken down with confusion matrices and per-class classification reports.
+  * **Models Deployed:** Deep ANN (fully-connected baseline), CNN (32→64→128 filter progression), and a CNN trained with real-time data augmentation.
+  * **Link to code:** [Week 4 Assignment File](https://github.com/srikanta2006/Celebal_Tech_Assignments/blob/main/week_4_srikanta.ipynb)
 ---
